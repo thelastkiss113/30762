@@ -1,138 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rebel Clothing Admin</title>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">"
-    <!-- CSS -->
-    <link ref="stylesheet" href="styles.css">
-    <!-- Icons -->
+    <!------------ Bootstrap -------------->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-------------- CSS ------------------>
+    <link rel="stylesheet" href="styles.css">
+    <!---------------Icons-----------------> 
     <script src="https://kit.fontawesome.com/161b4a5a40.js" crossorigin="anonymous"></script>
-</head>
 
+</head>
 <body>
     <div class="container-fluid">
-        <!-- Sidebar -->
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-            <div class="sidebar-header">
-                <h4> <a class="nav-link active" href="#"> <i class="fa-solid-fa-bars"></i></a></h4>
-            </div>
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> <i class="fa fa-envelope"></i></a>
-                </li>
-                <li class="nav-item">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-regular fa-calendar-days"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-solid fa-user-group"></i>
-                    </a>
-                </li>
-                <a class="nav-link" href="#">
-                    <i class="fa-solid fa-user-group"></i>
-                </a>
-                <a class="nav-link" href="#">
-                    <i class="fa-regular fa-clock"></i>
-                </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa fa-cogs"> </i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- Main Content -->
-
-<main role="main" class="col-md-10 ml-sm-auto px-5">
-   <!-- Header  -->
-    <header class="d-flex justify-content-between align-items-center py-3 mb-4 border bottom">
-    <h1 class="h4 mb-0">@Rebel Clothing</header>
-        <a class="nav-link active" href="#"><i class="fa-regular fa-bell" id="bell"></i></a>
-        <span class="adminName ml-auto"> Rebecca McKelvey</span>
-        <a class="nav-link active" href="#"><i class="fa-solid fa-user-tie"></i></a>
-    </header>
-    <div class="row mb-4">
-        <!-- Cards -->
-         <div class="col-md-3">
-            <div class="card border-pink" style="background-color: rgb(252,247,155);">
-                <div class="card-body">
-                    <h5 class="card-title"> Total Sales</h5>
-                    <p class="card-text"> $21,324</p>
-                    <sub>+$2,031</sub>
+        <div class="row">
+            <!-------------------------- Sidebar ---------------------------------------->
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-header">
+                    <h4>  <a class="nav-link active" href="#"><i class="fa-solid fa-bars"></i></a></h4>
                 </div>
-            </div>
-         </div>
-    <div class="col-md-3">
-        <div class="card border-pink" style="background-color: rgb(248,168,159)";>
-        <div class="card-body">
-<h5 class="card-title"> Total Income</h5>
-    <p class="card-text">$221,324.50</p>
-    <sub> -$2,201</sub>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="fa-solid fa-house-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-flag"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-chart-pie"></i>
+                            </a>
+                        </li>    
+                    </li>
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-regular fa-calendar-days"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-user-group"></i>
+                            </a>
+                        </li>
+                    </li>
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-clock"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-cogs"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Main content -->
+            <main role="main" class="col-md-10 ml-sm-auto px-5">
+                <!-- Header -->
+                <header class="d-flex justify-content-between align-items-center py-3 mb-4 border-bottom">
+                    <h1 class="h4 mb-0">@Rebel Clothing</h1>
+                    
+                    <a class="nav-link active" href="#"><i class="fa-regular fa-bell" id="bell"></i></a>
+
+                    <span class="adminName ml-auto">Rebecca McKelvey </span>   <a class="nav-link active" href="#"><i class="fa-solid fa-user-tie"></i></a>
+                </header>
+
+                <div class="row mb-4">
+                    <!-- Cards -->
+                    <div class="col-md-3">
+                        <div class="card border-pink" style="background-color: rgb(252, 247, 155);">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Sales</h5>
+                                <p class="card-text">$21,324</p>
+                                <sub> +$2,031</sub>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" >
+                        <div class="card border-pink" style="background-color: rgb(248, 168, 159);">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Income</h5>
+                                <p class="card-text">$221,324.50</p>
+                                <sub> -$2,201</sub>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card border-pink" style="background-color: rgb(239, 189, 252);">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Sessions</h5>
+                                <p class="card-text">16,703</p>
+                                <sub> +3,392</sub>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card border-pink" style="background-color: rgb(155, 196, 243);">
+                            <div class="card-body">
+                                <h5 class="card-title">Conversion Rate</h5>
+                                <p class="card-text">12%</p>
+                                <sub> -1.22%</sub>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Sales Performance -->
+                    <div class="row-xl-8">
+                        <div class="container border-pink p-3">
+                            <h4>Sales Performance</h4>
+                            <img src="./images/Untitled design.png" width="800px">
+                            <!-- Chart or Data Here -->
+                        </div>
+                    </div>
+                    <!-- Top Sellers -->
+                    <div class="row-s-8">
+                        <div class="container border-pink p-3">
+                            <h4>Top Sellers</h4>
+                            <img src="./images/Untitled design (1).png" width="800px">
+                            <!-- List of Top Sellers Here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <!-- Recent Customers -->
+                    <div class="col-md-12">
+                        <div class="container border-pink p-3">
+                            <h4>Recent Customers</h4>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Order Date</th>
+                                        <th>Phone Number</th>
+                                        <th>Email</th>
+                                        <th>Location</th>
+                                        <th>Details</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Nigel T Smalls</td>
+                                        <td>2024-09-10</td>
+                                        <td>(123) 456-7890</td>
+                                        <td>john@example.com</td>
+                                        <td>New York</td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                    <tbody>
+                                        <tr>
+                                            <td>Susie B Anthony</td>
+                                            <td>2024-09-10</td>
+                                            <td>(123) 456-7890</td>
+                                            <td>john@example.com</td>
+                                            <td>New York</td>
+                                            <td><a href="#">Details</a></td>
+                                        </tr> 
+                                        <tbody>
+                                            <tr>
+                                                <td>Lindsey C Farver</td>
+                                                <td>2024-09-10</td>
+                                                <td>(123) 456-7890</td>
+                                                <td>john@example.com</td>
+                                                <td>New York</td>
+                                                <td><a href="#">Details</a></td>
+                                            </tr>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Honey G Samples</td>
+                                                    <td>2024-09-10</td>
+                                                    <td>(123) 456-7890</td>
+                                                    <td>john@example.com</td>
+                                                    <td>New York</td>
+                                                    <td><a href="#">Details</a></td>
+                                                </tr>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Nala D Metts</td>
+                                                        <td>2024-09-10</td>
+                                                        <td>(123) 456-7890</td>
+                                                        <td>john@example.com</td>
+                                                        <td>New York</td>
+                                                        <td><a href="#">Details</a></td>
+                                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
-</div>
-<div class="col-md-3">
-    <div class="card-body">
-        <h5 class="card-title">Total Sessions</h5>
-        <p class="card-text"> 16,703</p>
-        <sub> +3,392</sub>
-    </div>
-</div>
-</div>
-<div class="col-md-3">
-    <div class="card border-pink" style="background-color: rgb(155, 196, 243);">
-        <div class="card-body">
-<h5 class="card-title"> Conversion Rate</h5>
-<p class="card-text">12%</p>
-<sub> -1.22%</sub>
-        </div>
-    </div>
-</div>
-</div>
 
-<div class="row">
-    <!-- Sales Performance -->
-     <div class="col-xl-8">
-        <div class="col-xl-8">
-            <div class="container border-pink p-3">
-                <h4> Sales Performance</h4>
-                <!-- Chart or Data Here  -->
-            </div>
-        </div>
-        <!-- Top Sellers  -->
-         <div class="col-xl-8">
-            <h4>Top Sellers</h4>
-            <!-- List of Top Sellers Here -->
-         </div>
-     </div>
-</div>
+    <!-- Bootstrap JS --->
 
-<div class="row mt-4">
-<!-- Recent Customers -->
- <div class="col-md-12">
-    <div class="container border-pink p3">
-
-        
-    </div>
- </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

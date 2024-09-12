@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f9fa;
+}
+
+a,
+.nav-item {
+    color: rgb(74, 74, 74);
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 1rem;
+    border-right: 2px solid pink;
+}
+
+.sidebar-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.container {
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+.container-fluid {
+    text-align: center;
+    font-size: x-large;
+}
+
+.card.border-pink {
+    border: 2x solid pink;
+    border-radius: 5px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.table a {
+    color: #aa7d7d;
+}
+
+/* Header Styles  */
+
+header {
+    border-bottom: 2px solid pink;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+header span {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+#bell {
+    display: block;
+    margin-left: 450px;
+    color: rgb(197, 44, 184);
+}
